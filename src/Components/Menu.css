@@ -1,0 +1,70 @@
+.menuBody
+{   
+    position: fixed;
+    width: 100%;
+    height: 110%;
+    background-size: cover;
+    background: #F3B344;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 135%;
+    color: white;
+    z-index: 100;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid maroon; */
+}
+
+.menuContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* left: 10%; */
+    /* background-color: antiquewhite; */
+    padding: 70px;
+    /* border: 2px solid blue; */
+}
+.textBox
+{
+    /* border: 2px solid brown; */
+    padding: 10px;
+    justify-content: space-between;
+}
+.banner
+{
+    /* border: 2px solid brown; */
+    position: absolute;
+    width: 628px;
+    height: 321px;
+    /* left: 812px; */
+    top: 30%;
+    /* left: 60%; */
+    right: -2%;
+    align-items: center;
+}
+
+.banner img
+{
+    transition: 0.5s all ease;
+}
+
+.banner img:hover
+{
+    transform: scale(1.1,1.1);
+}
+
+.text:hover
+{
+    color: black;
+    font-size: larger; 
+}
+
+.text
+{
+    transition: 0.5s all ease;
+}
