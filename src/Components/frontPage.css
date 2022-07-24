@@ -65,3 +65,167 @@
     opacity: 0.8;
 }
 
+
+/* Mobile Version Using Media Query */
+@media (max-width: 500px) {
+    .frontPage {
+      color: white;
+      display: block;
+      justify-content: center;
+      /* border: 2px solid salmon; */
+      width: 100%;
+      height: 100%;
+    }
+  
+    .frontText1 {
+      position: absolute;
+      height: 19px;
+      left: -16px;
+      top: 103px;
+      width: 387px;
+      height: 19px;
+      font-family: "Oswald";
+      font-style: normal;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 44px;
+      /* or 275% */
+  
+      text-transform: uppercase;
+  
+      /* gray / 9 white */
+  
+      opacity: 0.8;
+    }
+  
+    .frontHeading {
+      position: absolute;
+      top: 140px;
+      width: 461px;
+      height: 125px;
+      left: -51px;
+  
+      font-family: "Champion";
+      font-style: bold;
+      font-weight: 500;
+      font-size: 82px;
+      line-height: 90px;
+      /* or 70% */
+  
+      letter-spacing: 0.035em;
+      text-indent: 3px;
+  
+      /* gray / 9 white */
+  
+      color: #ffffff;
+    }
+    .frontText2 {
+      position: absolute;
+      width: 272px;
+      height: 21.26px;
+      left: 41px;
+      top: 315px;
+      opacity: 0.8;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 138%;
+      /* identical to box height, or 22px */
+  
+      text-align: center;
+  
+      color: #ffffff;
+    }
+    .frontText1,
+    .frontHeading,
+    .frontText2 {
+      display: inline;
+      padding: 80px;
+      padding-top: 40px;
+      justify-content: space-around;
+      text-align: center;
+    }
+  
+    .mainNav {
+      position: absolute;
+      justify-content: flex-end;
+    }
+    .tagLogo {
+      display: flex;
+      position: absolute;
+      left: 10px;
+      top: 45px;
+      width: 114px;
+      height: 27px;
+    }
+    .vglButton {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 24px;
+      gap: 8px;
+      text-transform: bold;
+      position: absolute;
+      width: 130px;
+      height: 48px;
+      left: 195px;
+      top: 490px;
+  
+      /* lighter/banana */
+      color: black;
+      background: #efca43;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+  
+    .vglButton:hover {
+      color: orange;
+      background: rgba(0, 0, 0, 0);
+    }
+  
+    .aboutContainer {
+      display: block;
+      width: 309px;
+      position: absolute;
+      margin: 0 auto;
+      height: 263px;
+      left: 32px;
+      top: 530px;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .aboutText {
+      display: block;
+      font-size: 18px;
+      width: 309px;
+      position: absolute;
+  
+      left: 32px;
+      top: 40px;
+      font-family: "Oswald";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 135%;
+      /* or 24px */
+  
+      text-align: justify;
+  
+      color: #ffffff;
+    }
+  
+    .aboutContainer .rightAbout img {
+      display: block;
+      width: 309px;
+      position: absolute;
+      left: 32px;
+      height: 30px;
+      margin-top: 5%;
+      justify-content: center;
+      height: 211px;
+    }
+  }
+  
