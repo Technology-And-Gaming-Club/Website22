@@ -4,6 +4,7 @@ import Menu from './Components/Menu';
 import ReactDOM from "react-dom/client";
 import Footer from './Components/Footer';
 import App from './AppHome.js';
+import ValoRegistration from './valoRegistration.js';
 import {AnimatePresence} from 'framer-motion';
 
 import {
@@ -24,6 +25,7 @@ export default function AnimatedRoutes() {
         <Route path="/" element={<Home/>}/>
         <Route path="/Menu" element={<Menu/>}/>
         <Route path="/EventVGL" element = {<AppEventsVGL/>}/>
+        <Route path="/ValorantRegistrations" element = {<ValoRegistration/>}/>
     </Routes>
     </AnimatePresence>
   );

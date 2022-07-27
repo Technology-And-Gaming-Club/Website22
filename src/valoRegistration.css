@@ -185,7 +185,7 @@
 }
 
 .bigdiv {
-    background-image: url("./Assets/home.png");
+    /* background-image: url("./Assets/home.png"); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

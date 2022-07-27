@@ -4,6 +4,7 @@ import { useRef, useState, useEffect } from 'react';
 // import Slider from 'react-touch-drag-slider'
 import './registrationCarousel.css'
 import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
 
 export default function Carousel(props) {
   // console.log(images);
@@ -34,9 +35,11 @@ export default function Carousel(props) {
             {props.images.map(image=>
               {
                 return(
-                  <motion.div className='item'>
-                    <img src={image}/>
-                  </motion.div>
+                  <Link to="/ValorantRegistrations">
+                    <motion.div className='item'>
+                      <img src={image}/>
+                    </motion.div>
+                  </Link>
                 );
               })}
           </motion.div>
