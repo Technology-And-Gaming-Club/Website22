@@ -19,7 +19,7 @@ export default function Menu(props) {
                     PROJECTS
                 </motion.div>
                 <motion.div animate={{x:[-2500,0]}} exit={{x:[0,-2500]}} transition={{duration: 1}} className='text'>
-                    CONTACTS
+                    OUR TEAM
                 </motion.div>
             </div>
             <motion.div animate={{x:[1000,0]}}  transition={{duration: 1.5}} className="banner">
