@@ -2,7 +2,7 @@ import {motion} from 'framer-motion';
 import React from 'react'
 import { useRef, useState, useEffect } from 'react';
 // import Slider from 'react-touch-drag-slider'
-import './carousel.css'
+import './registrationCarousel.css'
 import { useInView } from 'react-intersection-observer';
 
 export default function Carousel(props) {
@@ -27,9 +27,6 @@ export default function Carousel(props) {
         <h2 className='heading'>
           {props.heading.toUpperCase()}
         </h2>
-        <h4 className='viewHeading'>
-          VIEW ALL {props.heading.toUpperCase()}
-        </h4>
       </div>
       <div className="container">
         <motion.div ref={carousel} className="carousel">
