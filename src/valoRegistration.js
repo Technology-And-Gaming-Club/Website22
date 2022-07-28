@@ -503,4 +503,3 @@ export default function Registration() {
     
   )
 }
-export default App;

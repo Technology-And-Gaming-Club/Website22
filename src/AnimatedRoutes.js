@@ -24,6 +24,7 @@ export default function AnimatedRoutes() {
         <Route path="/" element={<Home/>}/>
         <Route path="/Menu" element={<Menu/>}/>
         <Route path="/EventVGL" element = {<AppEventsVGL/>}/>
+       
     </Routes>
     </AnimatePresence>
   );
