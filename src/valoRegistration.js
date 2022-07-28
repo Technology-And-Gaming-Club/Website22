@@ -4,7 +4,7 @@ import { useState } from 'react';
 import AnimatedRoutes from './AnimatedRoutes';
 import FrontPage from './Components/FrontPage';
 //import valo from "./Assets/valo.png";
-import './valoImg.css';
+import './valoRegistration.css';
 import './valo.png';
 import { useInView } from 'react-intersection-observer';
 
@@ -142,7 +142,7 @@ export default function Registration() {
       <div class="container">
 			  <img id="valo" src="./Assets/valo.png"/>
 			  <div class="divos">
-				    <div>VALORANT</div>
+				    {/* <div>VALORANT</div> */}
             
 			  </div>
         
