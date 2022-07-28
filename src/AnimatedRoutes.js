@@ -25,11 +25,7 @@ export default function AnimatedRoutes() {
         <Route path="/" element={<Home/>}/>
         <Route path="/Menu" element={<Menu/>}/>
         <Route path="/EventVGL" element = {<AppEventsVGL/>}/>
-<<<<<<< HEAD
-       
-=======
-        <Route path="/ValorantRegistrations" element = {<ValoRegistration/>}/>
->>>>>>> fa38d3c5b51a33327c441a4601709929edd03c31
+        <Route path="/valoRegistration" element = {<valoRegistration/>}/>
     </Routes>
     </AnimatePresence>
   );
