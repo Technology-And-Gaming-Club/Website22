@@ -142,7 +142,7 @@ export default function Registration() {
       <div class="container">
 			  <img id="valo" src="./Assets/valo.png"/>
 			  <div class="divos">
-				    {/* <div>VALORANT</div> */}
+				    <div>VALORANT</div>
             
 			  </div>
         

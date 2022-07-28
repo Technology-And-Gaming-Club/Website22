@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 
 import ReactDOM from "react-dom/client";
 import Menu from './Components/Menu';
+
 import {
   BrowserRouter,
   Routes,
