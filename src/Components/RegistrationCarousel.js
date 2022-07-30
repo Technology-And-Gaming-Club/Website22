@@ -27,15 +27,16 @@ export default function Carousel(props) {
       <div className="headContainer">
         <h2 className='heading'>
           {props.heading.toUpperCase()}
+          
         </h2>
       </div>
       <div className="container">
         <motion.div ref={carousel} className="carousel">
           <motion.div drag="x" dragConstraints={{right:0, left:-width}} className="inner-carousel">
-            {props.images.map(image=>
+            {props.images.map((image,idx)=>
               {
                 return(
-                  <Link to="/ValorantRegistrations">
+                  <Link to={idx === 0? props.registration_link:props.bracket_link}>
                     <motion.div className='item'>
                       <img src={image}/>
                     </motion.div>
