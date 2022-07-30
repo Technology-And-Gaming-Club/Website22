@@ -12,7 +12,7 @@ import { useInView } from 'react-intersection-observer';
 
 
 
-export default function Registration() {
+export default function RocketLeagueRegistration() {
     const [menu,setMenu] = useState(0);
     const { ref, inView} = useInView({
       /* Optional options */
