@@ -33,28 +33,29 @@ export default function AppEventsVGL() {
     {
       heading : "Valorant",
       images : imagesRegistrations,
-      registration_link : "/valoRegistration",
+      
+      registration_link : "https://github.com/Technology-And-Gaming-Club/GamEscape_Website/blob/main/mainPage.html",
       bracket_link : "/hello",
 
-    },
+    }, 
     {
       heading : "CSGO",
       images : imagesRegistrations,
-      registration_link : "/abcd",
+      registration_link : "./csgoRegistration.js",
       bracket_link : "",
 
     },
     {
-      heading : "rocket",
+      heading : "Rocket League",
       images : imagesRegistrations,
-      registration_link : "",
+      registration_link : "./rocketLeagueRegistration.js",
       bracket_link : "",
 
     },
     {
       heading : "fifa",
       images : imagesRegistrations,
-      registration_link : "",
+      registration_link : "fifaRegistration",
       bracket_link : "",
 
     }
