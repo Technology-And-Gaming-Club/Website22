@@ -34,7 +34,7 @@ export default function AppEventsVGL() {
       heading : "Valorant",
       images : imagesRegistrations,
       
-      registration_link : "https://github.com/Technology-And-Gaming-Club/GamEscape_Website/blob/main/mainPage.html",
+      registration_link : "./valoRegistration.js",
       bracket_link : "/hello",
 
     }, 
@@ -42,7 +42,7 @@ export default function AppEventsVGL() {
       heading : "CSGO",
       images : imagesRegistrations,
       registration_link : "./csgoRegistration.js",
-      bracket_link : "",
+      bracket_link : "shaan",
 
     },
     {
