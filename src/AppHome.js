@@ -1,38 +1,47 @@
-import './AppHome.css';
-import {motion} from "framer-motion";
-import {useRef, useEffect, useState} from "react";
-import Navbar from './Components/Navbar';
+import "./AppHome.css";
+import { motion } from "framer-motion";
+import { useRef, useEffect, useState } from "react";
+import Navbar from "./Components/Navbar";
 
 import ReactDOM from "react-dom/client";
-import Menu from './Components/Menu';
+import Home from "./Home.js";
+import Menu from "./Components/Menu";
+import CsgoRegistration from "./CsgoRegistration";
+import ValoRegistration from "./ValoRegistration";
+import FifaRegistration from "./FifaRegistration";
+import RocketLeagueRegistration from "./RocketLeagueRegistration";
 
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  useLocation
-} from "react-router-dom";
-import Carousel from './Components/Carousel';
-import Parallax from './Components/Parallax';
-import AnimatedRoutes from './AnimatedRoutes';
-import BackgroundImage from './Components/BackgroundImage';
-import JoinTag from './Components/JoinTag';
-import Footer from './Components/Footer';
-import AboutText from './Components/AboutText';
-import FrontPage from './Components/FrontPage';
-import imagesEvents from './imagesEvent.js'
-import imagesProjects from './imagesProjects.js';
-import AppEventsVGL from './AppEventsVGL';
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import Carousel from "./Components/Carousel";
+import Parallax from "./Components/Parallax";
+import AnimatedRoutes from "./AnimatedRoutes";
+import BackgroundImage from "./Components/BackgroundImage";
+import JoinTag from "./Components/JoinTag";
+import Footer from "./Components/Footer";
+import AboutText from "./Components/AboutText";
+import FrontPage from "./Components/FrontPage";
+import imagesEvents from "./imagesEvent.js";
+import imagesProjects from "./imagesProjects.js";
+import AppEventsVGL from "./AppEventsVGL";
 
 function App() {
   const location = useLocation();
-
   return (
-   
-      <AnimatedRoutes/>
-     
+    // <BrowserRouter>
+    <Routes>
+      <Route path="/Menu" element={<Menu />} />
+      <Route path="/EventVGL" element={<AppEventsVGL />} />
+      <Route path="/ValoRegistration" element={<ValoRegistration />} />
+      <Route path="/CsgoRegistration" element={<CsgoRegistration />} />
+      <Route path="/FifaRegistration" element={<FifaRegistration />} />
+      <Route
+        path="/RocketLeagueRegistration"
+        element={<RocketLeagueRegistration />}
+      />
+      <Route path="/" element={<Home />} />
+    </Routes>
+    // </BrowserRouter>
   );
 }
 
 export default App;
-
