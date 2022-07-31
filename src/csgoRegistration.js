@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Components/Navbar';
 import { useState } from 'react';
 import AnimatedRoutes from './AnimatedRoutes';
-import FrontPage from './Components/FrontPage';
+// import FrontPage from './FrontPage';
 //import valo from "./Assets/valo.png";
 import './Reg.css';
 import './valo.png';
@@ -12,7 +12,7 @@ import { useInView } from 'react-intersection-observer';
 
 
 
-export default function Registration() {
+export default function CsgoRegistration() {
     const [menu,setMenu] = useState(0);
     const { ref, inView} = useInView({
       /* Optional options */
@@ -221,12 +221,12 @@ export default function Registration() {
         <br></br>
         <br></br>
         <br></br>
-<ul id="player">
-<li id='number'>
-<span id='playerNum'>3</span>
-</li>
-<li>
-<div class="textBoxes"> 
+        <ul id="player">
+        <li id='number'>
+        <span id='playerNum'>3</span>
+        </li>
+        <li>
+        <div class="textBoxes"> 
 
 <div>
   <br/>

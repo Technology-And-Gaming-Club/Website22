@@ -34,28 +34,31 @@ export default function AppEventsVGL() {
       heading : "Valorant",
       images : imagesRegistrations,
       
-      registration_link : "./valoRegistration.js",
+
+      registration_link : "/valoRegistration",
+
       bracket_link : "/hello",
 
     }, 
     {
       heading : "CSGO",
       images : imagesRegistrations,
-      registration_link : "./csgoRegistration.js",
-      bracket_link : "shaan",
+      registration_link : "/csgoRegistration",
+      bracket_link : "",
+
 
     },
     {
       heading : "Rocket League",
       images : imagesRegistrations,
-      registration_link : "./rocketLeagueRegistration.js",
+      registration_link : "/rocketLeagueRegistration",
       bracket_link : "",
 
     },
     {
       heading : "fifa",
       images : imagesRegistrations,
-      registration_link : "fifaRegistration",
+      registration_link : "/fifaRegistration",
       bracket_link : "",
 
     }

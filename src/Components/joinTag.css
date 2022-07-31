@@ -9,6 +9,7 @@
     opacity: 0;
     transform: scale(90%);
     transition: 1.5s all ease;
+    color: #F3B344;
 }
 
 .joinTag--zoom
@@ -45,12 +46,13 @@
 .textB
 {
     font-size: 25vh;
-    color: #F3B344;
+    /* color: #F3B344; */
 
 }
 
 .box:hover 
 {
     background-color:#F3B344;
+    color: black;
     
 }

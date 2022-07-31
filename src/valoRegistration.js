@@ -12,7 +12,7 @@ import { useInView } from 'react-intersection-observer';
 
 
 
-export default function Registration() {
+export default function ValoRegistration() {
     const [menu,setMenu] = useState(0);
     const { ref, inView} = useInView({
       /* Optional options */
@@ -29,100 +29,6 @@ export default function Registration() {
     
 
   return (
-    //<div className>Registration</div>
-    // <div>
-    //   <div className='navibar'>
-    //     <Navbar setMenu={setMenu}/>
-    //     <AnimatedRoutes></AnimatedRoutes>
-    //   </div>
-
-      
-        
-    //       <div className={inView?'valoTextContainer valoTextContainer--zoom':'valoTextContainer'} ref={ref}>
-    //         <div className='valopic'>
-
-    //         <div className='frntpg'>
-
-              
-    //           <div className='maintxt'>
-    //             <div className='valoText'>
-    //               VALORANT
-    //             </div>
-
-    //             <div className='regTypetxt' style={{width: "100vw"}}>
-    //               <div>
-    //                 Registration Type
-    //               </div>
-    //               <div>
-    //                 <form>
-    //                   <div style={{margin: "20px 0"}}>
-    //                     <label style={{padding: "0 10px 0 0"}}>
-    //                       <input type="radio" name="players" style={{margin: "0 2px 0 0"}}/>
-    //                       Solo Entry
-    //                     </label>
-    //                     <label >
-    //                       <input type="radio" name="players" style={{margin: "0 2px 0 0"}}/>
-    //                       Team Entry
-    //                     </label>
-    //                   </div>
-    //                 </form>
-    //                 <form>
-    //                   <label>
-    //                     Name
-    //                     <div>
-    //                       <input type="text" name="name"/>
-    //                     </div>
-    //                   </label>
-    //                   <label>
-    //                     Name
-    //                     <div>
-    //                       <input type="text" name="name"/>
-    //                     </div>
-    //                   </label>
-    //                   <label>
-    //                     Name
-    //                     <div>
-    //                       <input type="text" name="name"/>
-    //                     </div>
-    //                   </label>
-    //                 </form>
-    //               </div>
-    //             </div>
-                
-
-
-                
-
-    //           </div>
-              
-
-    //         </div>
-
-            
-
-            
-
-    //       </div>
-
-          
-           
-    //     </div>
-
-        
-        
-        
-        
-        
-        
-        
-      
-      
-      
-
-
-        
-    // </div>
-
     
     <div>
 
