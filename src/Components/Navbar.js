@@ -49,7 +49,7 @@ export default function Navbar(props) {
         </motion.div> */}
         <motion.div  animate={clicked==1?{x:[0,500]}:{x:[500,0]}} className="vgl">
             <button onClick={buttonHandler} className="button vglButton">
-                <strong>RECON</strong>
+                <strong>VGL</strong>
             </button>
         </motion.div>
 

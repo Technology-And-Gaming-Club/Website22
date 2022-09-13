@@ -9,7 +9,7 @@ import Menu from "./Components/Menu";
 import CsgoRegistration from "./CsgoRegistration";
 import ValoRegistration from "./ValoRegistration";
 import FifaRegistration from "./FifaRegistration";
-import codmRegistration from "./codmRegistration";
+import RocketLeagueRegistration from "./RocketLeagueRegistration";
 
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Carousel from "./Components/Carousel";
@@ -35,8 +35,8 @@ function App() {
       <Route path="/CsgoRegistration" element={<CsgoRegistration />} />
       <Route path="/FifaRegistration" element={<FifaRegistration />} />
       <Route
-        path="/codmRegistration"
-        element={<codmRegistration />}
+        path="/RocketLeagueRegistration"
+        element={<RocketLeagueRegistration />}
       />
       <Route path="/" element={<Home />} />
     </Routes>
