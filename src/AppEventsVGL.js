@@ -70,7 +70,7 @@ export default function AppEventsVGL() {
     <motion.div animate={{y:[-1000,0]}} className="eventVGL">
     <Navbar setMenu ={setMenu}/>
   
-      <FrontPage text1="Gravita's Event" heading="RECON" text2="INITIATE | ELEVATE"/>
+      <FrontPage text1="Gravitas Event" heading="RECON" text2="INITIATE | ELEVATE"/>
       <AboutText heading="ABOUT THE EVENT" text="The name of the event is RECON: INITIATE/ELEVATE. THE MAIN IDEA OF INITIATE and ELEVATE IS TO START OFF THE EVENT AND ELEVATE IT TO TAKE IT TO THE NEXT LEVEL. THE EVENT WILL BE FOR ALL-INDIA COLLEGE STUDENTS. IT WILL BE CONDUCTED OFFLINE IN VIT ON 30TH SEP-2ND OCT
 2022 IN VIT VELLORE CAMPUS.
 WE PLAN TO CONDUCT THE EVENT IN TWO PHASES, PHASE 1 BEING A GAME.

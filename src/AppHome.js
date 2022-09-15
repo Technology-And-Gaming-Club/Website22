@@ -6,10 +6,10 @@ import Navbar from "./Components/Navbar";
 import ReactDOM from "react-dom/client";
 import Home from "./Home.js";
 import Menu from "./Components/Menu";
-import CsgoRegistration from "./CsgoRegistration";
-import ValoRegistration from "./ValoRegistration";
-import FifaRegistration from "./FifaRegistration";
-import CodmRegistration from "./CodmRegistration";
+import CsgoRegistration from "./csgoRegistration";
+import ValoRegistration from "./valoRegistration";
+import FifaRegistration from "./fifaRegistration";
+import CodmRegistration from "./codmRegistration";
 
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Carousel from "./Components/Carousel";

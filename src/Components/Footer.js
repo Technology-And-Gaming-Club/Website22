@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
     </div>
     <div className="bottomButton">
-    <motion.a onClick={scroll} className="goToBottom"> GET INTO TOUCH </motion.a>
+    <motion.a onClick={scroll} className="goToBottom"> GET IN TOUCH </motion.a>
     </div>
     </div>
         
