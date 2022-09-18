@@ -1,14 +1,11 @@
 import React from 'react'
 import './ourTeamLeft.css';
 
-export default function OurTeamLeft(props) {
+export default function OurTeamRight(props) {
   return (
     <>
-      <div data-aos="fade-right" data-aos-duration="1500" className="teamContainer">
+      <div data-aos="fade-left" data-aos-duration="1500" className="teamContainer">
         <div className="leftPan">
-            <img src={props.image} className='ourTeamImg'/>
-        </div>
-        <div className="rightPan">
             <div className="rightPanCont">
                 <div className="rightPanName">
                     {props.name}
@@ -19,7 +16,10 @@ export default function OurTeamLeft(props) {
                 <div className="rightPanBody">
                     {props.body}
                 </div>
-            </div>
+            </div>   
+        </div>
+        <div className="rightPan">
+            <img src={props.image} className='ourTeamImg'/>
         </div>
       </div>
     </>
