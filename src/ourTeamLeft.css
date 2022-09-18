@@ -1,0 +1,44 @@
+.eventContainer
+{
+    margin-top: 10%;
+    color: #FFFF;
+    display: flex;
+    flex-direction: row;
+    font-family: oswald;
+}
+
+.ourTeamImg
+{
+    width: 90%;
+    height: 90%;
+    /* border:2px solid rebeccapurple; */
+    /* margin-right: 1%; */
+    margin-left: 25%;
+}
+
+.rightPanCont
+{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 25%; */
+    width: 100%;
+}
+
+.rightPanName
+{
+    font-size: 10vh;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.rightPanRole
+{
+    text-align: center;
+    font-size: 5vh;
+    margin-bottom: 1%;
+}
+.rightPanBody
+{
+    text-align: center;
+    width: 50%;
+    align-self: center;
+}

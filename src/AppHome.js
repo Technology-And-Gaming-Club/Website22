@@ -10,6 +10,7 @@ import CsgoRegistration from "./csgoRegistration";
 import ValoRegistration from "./valoRegistration";
 import FifaRegistration from "./fifaRegistration";
 import CodmRegistration from "./codmRegistration";
+import OurTeam from "./OurTeam";
 
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Carousel from "./Components/Carousel";
@@ -34,6 +35,7 @@ function App() {
       <Route path="/ValoRegistration" element={<ValoRegistration />} />
       <Route path="/CsgoRegistration" element={<CsgoRegistration />} />
       <Route path="/FifaRegistration" element={<FifaRegistration />} />
+      <Route path="/OurTeam" element={<OurTeam/>} />
       <Route
         path="/CodmRegistration"
         element={<CodmRegistration />}
