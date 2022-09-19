@@ -12,9 +12,14 @@ export default function ReconButton() {
     }
   return (
     <>
+    <div className="reconButtons">
         <div onClick={buttonHandler} className="moreRecon">
             SOP
         </div>
+        <div className="regProcess">
+            REGISTRATION
+        </div>
+    </div>
     </>
   )
 }

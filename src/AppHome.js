@@ -8,7 +8,7 @@ import Home from "./Home.js";
 import Menu from "./Components/Menu";
 import CsgoRegistration from "./CSGOReg";
 import ValoRegistration from "./ValReg";
-import FifaRegistration from "./fifaRegistration";
+import FifaRegistration from "./FIFAReg";
 import CodmRegistration from "./CODMReg";
 import OurTeam from "./OurTeam";
 

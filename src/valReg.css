@@ -4,3 +4,13 @@
     font-family: oswald;
     margin-left: 1.5%;
 }
+.landingLogo
+{
+    margin-left: 37vw;
+}
+.landingHeading
+{
+    margin-left: 40vw;
+    font-size: 10vh;
+    color: orange;
+}

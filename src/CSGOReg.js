@@ -10,6 +10,10 @@ export default function CSGOReg() {
     <>
         <Navbar setMenu={setMenu}/>
         <motion.div animate={{y:[-1000,0]}} className="csgoReg">
+        <img src="Assets/Recon 1.png" className='landingLogo csgoLanding' />
+        <p className="landingHeading csgoHeading">
+            CSGO
+        </p>
             <p className="rulebookHeading">
                 GENERAL RULES
             </p>

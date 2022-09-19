@@ -11,6 +11,10 @@ export default function CODMReg() {
     <>
         <Navbar setMenu={setMenu}/>
         <motion.div animate={{y:[-1000,0]}} className="codmReg">
+        <img src="Assets/Recon 1.png" className='landingLogo codmLanding' />
+        <p className="landingHeading codmHeading ">
+            CODM
+        </p>
             <p className="rulebookHeading">
                 GENERAL RULES
             </p>

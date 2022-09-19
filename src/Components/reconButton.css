@@ -1,3 +1,10 @@
+
+.reconButtons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -8%;
+}
 .moreRecon
 {
     /* justify-content: right; */
@@ -14,4 +21,18 @@
 .moreRecon:hover
 {
     cursor: pointer;
+}
+
+.regProcess
+{
+    border: 2px solid #ffa500;
+    width: 90px;
+    color: white;
+    /* align-items: center; */
+    height: 30px;
+    margin-left: 6%;
+    font-family: oswald;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
 }

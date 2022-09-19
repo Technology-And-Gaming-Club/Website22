@@ -7,8 +7,13 @@ export default function ValReg() {
     const [menu,setMenu] = useState(0);
   return (
     <>
+        
         <Navbar setMenu={setMenu}/>
         <motion.div animate={{y:[-1000,0]}} className="valReg">
+        <img src="Assets/Recon 1.png" className='landingLogo' />
+        <p className="landingHeading">
+            VALORANT
+        </p>
             <p className="rulebookHeading">
                 GENERAL RULES
             </p>
