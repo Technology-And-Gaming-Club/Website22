@@ -7,7 +7,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./Home.js";
 import Menu from "./Components/Menu";
 import CsgoRegistration from "./csgoRegistration";
-import ValoRegistration from "./valoRegistration";
+import ValoRegistration from "./ValReg";
 import FifaRegistration from "./fifaRegistration";
 import CodmRegistration from "./codmRegistration";
 import OurTeam from "./OurTeam";
@@ -24,6 +24,7 @@ import FrontPage from "./Components/FrontPage";
 import imagesEvents from "./imagesEvent.js";
 import imagesProjects from "./imagesProjects.js";
 import AppEventsVGL from "./AppEventsVGL";
+import Rulebook from "./Rulebook";
 
 function App() {
   const location = useLocation();
@@ -40,6 +41,7 @@ function App() {
         path="/CodmRegistration"
         element={<CodmRegistration />}
       />
+      <Route path="/Rulebook" element={<Rulebook/>} />
       <Route path="/" element={<Home />} />
     </Routes>
     // </BrowserRouter>

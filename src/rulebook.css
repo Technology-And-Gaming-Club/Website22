@@ -1,0 +1,25 @@
+.rulebook
+{
+    color: white;
+    font-family: oswald;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 1.5%;
+    margin-top: 20vh;
+}
+.rulebookHeading
+{
+    color: orange;
+    font-size: 10vh;
+    margin-bottom: 2.5%;
+}
+.rulebookBody
+{
+    color: white;
+    font-size: 2.5vh;
+}
+.tab
+{
+    margin-left: 3%;
+}

@@ -26,6 +26,7 @@ import Menu from './Components/Menu';
 
 import imagesRegistrations from './imagesRegistrations';
 import RegistrationCarousel from './Components/RegistrationCarousel'
+import ReconButton from './Components/ReconButton';
 
 
 export default function AppEventsVGL() {
@@ -69,7 +70,6 @@ export default function AppEventsVGL() {
   return (
     <motion.div animate={{y:[-1000,0]}} className="eventVGL">
     <Navbar setMenu ={setMenu}/>
-  
       <FrontPage text1="Gravitas Event" heading="RECON" text2="INITIATE | ELEVATE"/>
       <AboutText heading="ABOUT THE EVENT" text="The name of the event is RECON: INITIATE/ELEVATE. THE MAIN IDEA OF INITIATE and ELEVATE IS TO START OFF THE EVENT AND ELEVATE IT TO TAKE IT TO THE NEXT LEVEL. THE EVENT WILL BE FOR ALL-INDIA COLLEGE STUDENTS. IT WILL BE CONDUCTED OFFLINE IN VIT ON 30TH SEP-2ND OCT
 2022 IN VIT VELLORE CAMPUS.
@@ -95,6 +95,8 @@ FEES). PLAYERS CAN PARTICIPATE EITHER WITH THEIR TEAMS OR SOLO.
 FOR SOLO PARTICIPANTS, WE WILL BE ALLOTTING. TEAMS BASED ON THEIR RANKS. THE MATCHMAKING WILL BE DONE ACCORDINGLY. THE WINNERS ANI
 RUNNER UPS OF EACH GAME WILL BE REWARDED.
 "/>
+<ReconButton/>
+      
       {/* <RegistrationCarousel heading="VALORANT" images={imagesRegistrations}/> */}
       {
         events.map((element,idx)=>{

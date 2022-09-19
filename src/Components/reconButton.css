@@ -1,0 +1,17 @@
+.moreRecon
+{
+    /* justify-content: right; */
+    border: 2px solid #ffa500;
+    width: 90px;
+    color: white;
+    /* align-items: center; */
+    height: 30px;
+    margin-left: 6%;
+    font-family: oswald;
+    display: flex;
+    justify-content: center;
+}
+.moreRecon:hover
+{
+    cursor: pointer;
+}
