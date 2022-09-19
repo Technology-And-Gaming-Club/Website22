@@ -10,13 +10,17 @@ export default function ReconButton() {
     {
         navigate("/Rulebook")
     }
+    const buttonHandler2 = ()=>
+    {
+      navigate("/Registration")
+    }
   return (
     <>
     <div className="reconButtons">
         <div onClick={buttonHandler} className="moreRecon">
             SOP
         </div>
-        <div className="regProcess">
+        <div onClick={buttonHandler2} className="regProcess">
             REGISTRATION
         </div>
     </div>

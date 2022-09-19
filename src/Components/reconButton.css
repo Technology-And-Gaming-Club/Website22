@@ -3,7 +3,7 @@
 {
     display: flex;
     justify-content: center;
-    margin-top: -8%;
+    /* margin-top: -8%; */
 }
 .moreRecon
 {
@@ -35,4 +35,8 @@
     display: flex;
     justify-content: center;
     margin-right: 5%;
+}
+.regProcess:hover
+{
+    cursor: pointer;
 }
