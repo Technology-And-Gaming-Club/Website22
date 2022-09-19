@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/62415a90-7d39-474b-82a6-ed9515e50114/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/TAGwebsite2022",
+    "appService.deploySubpath": "."
+}
