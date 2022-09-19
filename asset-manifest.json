@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/New_Tag_Website/static/css/main.465bb0f8.css",
+    "main.js": "/New_Tag_Website/static/js/main.d497e05f.js",
+    "static/media/Home Page.png": "/New_Tag_Website/static/media/Home Page.155e0d06558e6df597d8.png",
+    "static/media/home.png": "/New_Tag_Website/static/media/home.155e0d06558e6df597d8.png",
+    "static/media/valo.png": "/New_Tag_Website/static/media/valo.eb8872c7f5ce90e84e7c.png",
+    "index.html": "/New_Tag_Website/index.html",
+    "main.465bb0f8.css.map": "/New_Tag_Website/static/css/main.465bb0f8.css.map",
+    "main.d497e05f.js.map": "/New_Tag_Website/static/js/main.d497e05f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.465bb0f8.css",
+    "static/js/main.d497e05f.js"
+  ]
+}
