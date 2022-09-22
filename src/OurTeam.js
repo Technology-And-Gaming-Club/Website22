@@ -36,7 +36,7 @@ export default function OurTeam() {
   return (
     <>
       <Navbar setMenu={setMenu}/>
-      <OurTeamLeft name="AYUSH SAHA" role="CHAIRPERSON" body="With his management skills and his sheer desire for the work, Bhargav's enthusiasm and commitment has always provided us success. The only Rainbow Six Siege player in the group, who is also highly skilled at the game." image="Assets/Ayush Saha.png"/>
+      <OurTeamLeft name="AYUSH SAHA" role="CHAIRPERSON" body="Consistently hardworking, a true leader amongst men, Ayush has always shown his desire and determination towards the club." image="Assets/Ayush Saha.png"/>
       <OurTeamRight name="AYUSH AGGARWAL" role="VICE-CHAIRPERSON" body="Diligent in his works, hardworking and funny, Ayush has never missed a chance to impress us with his work and his other worldly skills." image="Assets/Ayush Aggarwal.png"/> 
       <OurTeamLeft name="VINAYAK AGGARWAL" role="SECRETARY" body="As someone who's always ready to challenge and bring up new ideas, Vinayak has always proven his great dedication towards the club." image="Assets/Vinayak Aggarwal.png"/>
       <OurTeamRight name="KUMAR KRISHAV" role="CO-SECRETARY" body="Did someone say CSGO? Our in-house professional CS player(albeit with a history of dubiousness) is also that one guy who knows everyone- and is ready to lend a hand in any of their problems- be it a club event or their elo(or both)." image="Assets/Kumar Krishav.png"/> 

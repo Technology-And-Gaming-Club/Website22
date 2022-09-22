@@ -27,7 +27,7 @@ export default function Menu(props) {
                     EVENTS
                 </motion.div>
                 <motion.div animate={{x:[-2600,0]}} exit={{x:[0,-2600]}} transition={{duration: 1}} className='text'>
-                    PROJECTS
+                    WORKSHOPS
                 </motion.div>
                 <motion.div animate={{x:[-2500,0]}} exit={{x:[0,-2500]}} transition={{duration: 1}} className='text'>
                     <Link to="/OurTeam">
