@@ -49,6 +49,24 @@ Game length will be 6 minutes, each half.<br/>
 A player cannot pause an ongoing game for any reason until the ball goes out of play. Violating this rule, will result in first warning and subsequently can lead to DISQUALIFICATION.<br/>
 All the in-game sliders are kept to default value and will not be changed.<br/>
             </p>
+
+
+            <p className="rulebookHeading">
+            RULES of DISQUALIFICATION:
+
+            </p>
+            <p className="rulebookBody">
+            1.Restart without consent.<br></br>
+2.A player cannot pause a game without any reason until and unless the ball goes out.<br></br>
+3.Creating any kind of nuisance in the labs.<br></br>
+4.Toxicity and foul play is strictly prohibited during the tournament (A slight level of banter would be allowed).<br></br>
+
+NOTE : 1. In case of any delay, the reformed time slots will be sent in the respective        Whatsapp Groups.
+	             2. In case of any dilemma or confusion, the participants must inquire from their respective coordinators.
+					 				
+
+            </p>
+
         </motion.div>
       
     </>
