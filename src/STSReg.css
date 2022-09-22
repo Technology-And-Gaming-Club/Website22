@@ -1,0 +1,38 @@
+.valReg
+{
+    margin-top: 20vh;
+    font-family: oswald;
+    margin-left: 1.5%;
+}
+.landingLogo
+{
+    margin-left: 37vw;
+}
+.landingHeading
+{
+    margin-left: 40vw;
+    font-size: 10vh;
+    color: orange;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .landingLogo
+    {
+        margin-left: 30px;
+       
+    }
+
+    .landingHeading
+    { 
+        margin-left:90px;
+        font-size: 7vh;
+    }
+   .rulebookHeading{
+    font-size:20px;
+   }
+    
+
+    
+    
+    }

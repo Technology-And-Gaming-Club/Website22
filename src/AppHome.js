@@ -26,6 +26,7 @@ import imagesProjects from "./imagesProjects.js";
 import AppEventsVGL from "./AppEventsVGL";
 import Rulebook from "./Rulebook";
 import Registration from "./Registration";
+import STSReg from "./STSReg"
 
 function App() {
   const location = useLocation();
@@ -43,6 +44,7 @@ function App() {
         path="/CodmRegistration"
         element={<CodmRegistration />}
       />
+      <Route path="/STSRegistration" element = {<STSReg />} />
       <Route path="/Rulebook" element={<Rulebook/>} />
       <Route path="/" element={<Home />} />
     </Routes>

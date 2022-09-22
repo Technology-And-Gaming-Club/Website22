@@ -62,6 +62,13 @@ export default function AppEventsVGL() {
       registration_link : "/fifaRegistration",
       bracket_link : "",
 
+    },
+    {
+      heading : "Studio To Stage",
+      images : imagesRegistrations,
+      registration_link : "/STSRegistration",
+      bracket_link : "",
+
     }
   ]
   const location = useLocation();
