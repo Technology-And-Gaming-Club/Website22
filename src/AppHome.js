@@ -25,6 +25,8 @@ import imagesEvents from "./imagesEvent.js";
 import imagesProjects from "./imagesProjects.js";
 import AppEventsVGL from "./AppEventsVGL";
 import Rulebook from "./Rulebook";
+import Registration from "./Registration";
+import STSReg from "./STSReg"
 
 function App() {
   const location = useLocation();
@@ -37,10 +39,12 @@ function App() {
       <Route path="/CsgoRegistration" element={<CsgoRegistration />} />
       <Route path="/FifaRegistration" element={<FifaRegistration />} />
       <Route path="/OurTeam" element={<OurTeam/>} />
+      <Route path="/Registration" element={<Registration/>} />
       <Route
         path="/CodmRegistration"
         element={<CodmRegistration />}
       />
+      <Route path="/STSRegistration" element = {<STSReg />} />
       <Route path="/Rulebook" element={<Rulebook/>} />
       <Route path="/" element={<Home />} />
     </Routes>
