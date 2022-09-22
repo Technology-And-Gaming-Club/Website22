@@ -28,39 +28,23 @@ export default function Navbar(props) {
           animate={clicked == 1 ? { x: [0, -500, 0] } : { x: [0, -500, 10] }}
           className="lines"
         >
-          <Link onClick={menuHandler} to={clicked == 1 ? "/" : "/Menu"}>
+          <Link onClick={menuHandler} to={"/"}>
             <div
-              style={
-                clicked == 1
-                  ? {
-                      transform: "rotate(45deg)",
-                      marginBottom: "0px",
-                      marginTop: "0px",
-                      transition: "1.2s",
-                    }
-                  : {
-                      marginBottom: "10px",
-                      marginTop: "10px",
-                      transition: "1.2s",
-                    }
-              }
+              style={{
+                transform: "rotate(45deg)",
+                marginBottom: "0px",
+                marginTop: "0px",
+                transition: "1.2s",
+              }}
               className="menuBar"
             ></div>
             <div
-              style={
-                clicked == 1
-                  ? {
-                      transform: "rotate(-45deg)",
-                      marginBottom: "0px",
-                      marginTop: "0px",
-                      transition: "1.2s",
-                    }
-                  : {
-                      marginBottom: "10px",
-                      marginTop: "10px",
-                      transition: "1.2s",
-                    }
-              }
+              style={{
+                transform: "rotate(-45deg)",
+                marginBottom: "0px",
+                marginTop: "0px",
+                transition: "1.2s",
+              }}
               className="menuBar"
             ></div>
           </Link>
