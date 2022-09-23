@@ -49,7 +49,7 @@ export default function OurTeam() {
       <OurTeamLeft name="TAG CYBERCUP" role="e-Sports Tournament" body="We are proud to announce TAG-CyberCup, a gaming tournament that is sure to get you off your feet and into an E-sport extravaganza.
 TAG CyberCup is an intra club tournament consisting of 3 games: CS:GO, Valorant and Rocket League. If you can register as a full team- that’s great! But even if you are missing a team we got you covered!
 Have you got what it takes to meet the challenge?
-." image="Assets/Cybwecup.png"/>
+." image="Assets/Cybercup.png"/>
       <OurTeamRight name="TAG-O-MANIA" role="intra-Club Tournament" body="The game of life has 2 participants :
 Player and spectator.
 You have to pick one of our Intra-Club Tournament. .
