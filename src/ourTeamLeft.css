@@ -9,11 +9,11 @@
 
 .ourTeamImg
 {
-    width: 90%;
-    height: 90%;
+    width: 35rem;
+    height: 35rem;
     /* border:2px solid rebeccapurple; */
     /* margin-right: 1%; */
-    margin-left: 25%;
+    margin-left: 15rem;
     margin-right: 100px;
 }
 

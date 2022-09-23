@@ -26,7 +26,7 @@ export default function Menu(props) {
             transition={{ duration: 1 }}
             className="text"
           >
-            <Link to="/AppHome" className="navLink">
+            <Link to="/" className="navLink">
               ABOUT
             </Link>
           </motion.div>
