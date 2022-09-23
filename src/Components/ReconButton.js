@@ -17,10 +17,10 @@ export default function ReconButton() {
   return (
     <>
     <div className="reconButtons">
-        <div onClick={buttonHandler} className="moreRecon">
+        <div onClick={buttonHandler} className="button vglButton">
             SOP
         </div>
-        <div onClick={buttonHandler2} className="regProcess">
+        <div onClick={buttonHandler2} className="button vglButton">
             REGISTRATION
         </div>
     </div>
