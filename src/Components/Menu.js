@@ -36,7 +36,10 @@ export default function Menu(props) {
             transition={{ duration: 1 }}
             className="text"
           >
+            <Link to="/Events" className="navLink">
             EVENTS
+            </Link>
+           
           </motion.div>
           <motion.div
             animate={{ x: [-2600, 0] }}
