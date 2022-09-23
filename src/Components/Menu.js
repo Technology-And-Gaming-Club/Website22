@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Link, to } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
+
 export default function Menu(props) {
   const [menu, setMenu] = useState(1);
   return (
@@ -25,7 +26,7 @@ export default function Menu(props) {
             transition={{ duration: 1 }}
             className="text"
           >
-            <Link to="/OurTeam" className="navLink">
+            <Link to="/AppHome" className="navLink">
               ABOUT
             </Link>
           </motion.div>
@@ -43,7 +44,8 @@ export default function Menu(props) {
             transition={{ duration: 1 }}
             className="text"
           >
-            WORKSHOPS
+            <Link to="/Workshop" className="navLink">
+            WORKSHOPS</Link>
           </motion.div>
           <motion.div
             animate={{ x: [-2500, 0] }}

@@ -27,6 +27,7 @@ import AppEventsVGL from "./AppEventsVGL";
 import Rulebook from "./Rulebook";
 import Registration from "./Registration";
 import STSReg from "./STSReg"
+import Workshop from "./Workshop";
 
 function App() {
   const location = useLocation();
@@ -45,6 +46,7 @@ function App() {
         element={<CodmRegistration />}
       />
       <Route path="/STSRegistration" element = {<STSReg />} />
+      <Route path="/Workshop" element = {<Workshop />} />
       <Route path="/Rulebook" element={<Rulebook/>} />
       <Route path="/" element={<Home />} />
     </Routes>
