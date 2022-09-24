@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'TAGWEBSITE22'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7BE3E14C9A6F4901A4794CC30F03FDBB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2711FCEB448A4EDC87C64B1B1985B6AD }}
           package: .
