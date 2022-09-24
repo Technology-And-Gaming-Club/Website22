@@ -60,7 +60,12 @@
     /* z-index: 300; */
     transition: 0.5s all ease;
     margin-right: 1.5em;
+    
 
+}
+.vglsButton1:hover
+{
+    cursor: pointer;
 }
 .vglsButton2{
     /* background: #EFCA43; */
@@ -82,5 +87,11 @@
    /* z-index: 300; */
    transition: 0.5s all ease;
    margin-right: 1.5em;
+   
 
+}
+.vglsButton2:hover
+{
+    cursor: pointer;
+    color: white;
 }

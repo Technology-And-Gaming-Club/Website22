@@ -171,7 +171,7 @@
       width: 130px;
       height: 48px;
       left: 195px;
-      top: 490px;
+      top: 510px;
   
       /* lighter/banana */
       color: black;
@@ -228,26 +228,52 @@
       line-height: 0.7rem;
     }
     .heading{
-      margin-top: 14rem;
+      margin-top: 18rem;
     }
     .viewHeading{
-      margin-top: 14rem;
+      margin-top: 18rem;
       margin-left: 5rem;
     }
     .leftAboutHeading{
-      margin-top: 5rem;
+      margin-top: 8rem;
     }
     .button.vglsButton1{
-      margin-top: -7rem;
+      margin-top: -18rem;
       margin-left: 10rem;
       
     }
     .button.vglsButton2{
-      margin-top: -7rem;
+      margin-top: -18rem;
      
       
     }
     .banner{
+      display: none;
+    }
+    .frontText2{
+      display: none;
+    }
+    .footerLeftHeading{
+      font-size: 5rem;
+    }
+    .footerExtremeRight{
+      display: none;
+    }
+    .joinTagText.textA{
+      font-size: 1rem;
+
+    }
+    .joinTagText.textB{
+      font-size: 5rem;
+
+    }
+    .box{
+      width: 50rem;
+    }
+    .footerContainer{
+      width: 35rem;
+    }
+    .ourTeamImg{
       display: none;
     }
   }
