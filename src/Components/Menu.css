@@ -68,3 +68,12 @@
 .navLink:hover {
   color: #000000;
 }
+@media (max-width: 500px) {
+  .navLink{
+    
+    font-size: 3rem;
+    line-height: 2rem;
+    
+    
+  }
+}
