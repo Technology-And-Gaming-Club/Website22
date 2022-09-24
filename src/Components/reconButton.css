@@ -40,3 +40,47 @@
 {
     cursor: pointer;
 }
+.vglsButton1{
+     /* background: #EFCA43; */
+    border: 2px solid orange;
+    /* border-radius: 15px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 24px; */
+    /* gap: 8px; */ 
+    background: rgba(0, 0, 0, 0);
+    color: orange;
+    width: 130px;
+    height: 48px;
+    /* transform: rotate(90deg); */
+    /* left: 50%;
+    top: 41px; */
+    /* z-index: 300; */
+    transition: 0.5s all ease;
+    margin-right: 1.5em;
+
+}
+.vglsButton2{
+    /* background: #EFCA43; */
+   border: 2px solid orange;
+   /* border-radius: 15px; */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   /* padding: 0px 24px; */
+   /* gap: 8px; */ 
+   background: rgba(0, 0, 0, 0);
+   color: orange;
+   width: 130px;
+   height: 48px;
+   /* transform: rotate(90deg); */
+   /* left: 50%;
+   top: 41px; */
+   /* z-index: 300; */
+   transition: 0.5s all ease;
+   margin-right: 1.5em;
+
+}
