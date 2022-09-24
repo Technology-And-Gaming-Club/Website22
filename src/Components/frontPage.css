@@ -199,7 +199,7 @@
   
     .aboutText {
       display: block;
-      font-size: 18px;
+      font-size: 8rem;
       width: 309px;
       position: absolute;
   
@@ -219,13 +219,36 @@
   
     .aboutContainer .rightAbout img {
       display: block;
-      width: 309px;
+      width:0rem;
       position: absolute;
-      left: 32px;
-      height: 30px;
-      margin-top: 5%;
-      justify-content: center;
-      height: 211px;
+      
+    }
+    .leftAboutText{
+      font-size: 0.6rem;
+      line-height: 0.7rem;
+    }
+    .heading{
+      margin-top: 14rem;
+    }
+    .viewHeading{
+      margin-top: 14rem;
+      margin-left: 5rem;
+    }
+    .leftAboutHeading{
+      margin-top: 5rem;
+    }
+    .button.vglsButton1{
+      margin-top: -7rem;
+      margin-left: 10rem;
+      
+    }
+    .button.vglsButton2{
+      margin-top: -7rem;
+     
+      
+    }
+    .banner{
+      display: none;
     }
   }
   
