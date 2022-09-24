@@ -46,17 +46,22 @@
 }
 @media (max-width: 500px)
 {
-    
+    .teamContainer{
+        flex-direction: column;
+        flex-flow: inherit;
+        margin-top: 10rem;
+    }
     .ourTeamImg{
         width: 10rem;
         height:10rem;
-        margin-top: 35rem;
+       /* margin-top: 35rem;*/
         margin-left:3rem;
-       margin-right:10px;
+        margin-right:10px;
     }
     .rightPanCont{
-        margin-top: 35rem;
+      /*  margin-top: 35rem;*/
         margin-left: 20px;
+        
     }
 
     .rightPanName{

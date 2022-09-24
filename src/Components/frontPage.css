@@ -273,6 +273,11 @@
     .footerContainer{
       width: 35rem;
     }
+
+    .vglButton{
+      position:absolute;
+      top:35px;
+    }
   }
-  
+
   
