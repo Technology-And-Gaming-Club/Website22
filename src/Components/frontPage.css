@@ -273,8 +273,11 @@
     .footerContainer{
       width: 35rem;
     }
-    .ourTeamImg{
+    /* .ourTeamImg{
       display: none;
+    } */
+    .rulebookHeading{
+      margin-top: 10rem;
     }
   }
   
