@@ -192,7 +192,7 @@
       margin: 0 auto;
       height: 263px;
       left: 32px;
-      top: 530px;
+      top: 230px;
       align-items: center;
       justify-content: space-between;
     }
@@ -224,27 +224,30 @@
       
     }
     .leftAboutText{
-      font-size: 0.6rem;
-      line-height: 0.7rem;
+      font-size: 0.7rem;
+      line-height: 1rem;
     }
     .heading{
-      margin-top: 18rem;
+      margin-top: 7rem;
     }
     .viewHeading{
-      margin-top: 18rem;
+      margin-top: 7rem;
       margin-left: 5rem;
     }
     .leftAboutHeading{
       margin-top: 8rem;
     }
     .button.vglsButton1{
-      margin-top: -18rem;
-      margin-left: 10rem;
+      position: absolute;
+      top:300px;
       
+      left:100px;
     }
     .button.vglsButton2{
-      margin-top: -18rem;
-     
+      
+     position: absolute;
+     top:300px;
+     left:250px;
       
     }
     .banner{

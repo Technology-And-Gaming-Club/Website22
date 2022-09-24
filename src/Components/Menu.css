@@ -70,9 +70,10 @@
 }
 @media (max-width: 500px) {
   .navLink{
-    
+    position: relative;
+    top:-60px;
     font-size: 3rem;
-    line-height: 2rem;
+    line-height: 1rem;
     
     
   }
