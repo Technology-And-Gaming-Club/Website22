@@ -32,3 +32,16 @@
 {
     transform: translate(50%,50%);
 } */
+@media  (max-width: 500px) {
+    .registrationsHeading{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .registrationsStep{
+        font-size: 15px;
+    }
+    .registrationsImage{
+        width: 70%;
+    }
+    
+}
