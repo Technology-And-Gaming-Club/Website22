@@ -47,7 +47,7 @@
 
 .frontText1
 {
-    font-family: oswald;
+    font-family: "oswald";
     font-size: 4vh;
     opacity: 0.8;
 }
@@ -171,7 +171,7 @@
       width: 130px;
       height: 48px;
       left: 195px;
-      top: 490px;
+      top: 510px;
   
       /* lighter/banana */
       color: black;
@@ -192,7 +192,7 @@
       margin: 0 auto;
       height: 263px;
       left: 32px;
-      top: 530px;
+      top: 230px;
       align-items: center;
       justify-content: space-between;
     }
@@ -224,31 +224,63 @@
       
     }
     .leftAboutText{
-      font-size: 0.6rem;
-      line-height: 0.7rem;
+      font-size: 0.7rem;
+      line-height: 1rem;
     }
     .heading{
-      margin-top: 14rem;
+      margin-top: 7rem;
     }
     .viewHeading{
-      margin-top: 14rem;
+      margin-top: 7rem;
       margin-left: 5rem;
     }
     .leftAboutHeading{
-      margin-top: 5rem;
+      margin-top: 8rem;
     }
     .button.vglsButton1{
-      margin-top: -7rem;
-      margin-left: 10rem;
+      position: absolute;
+      top:300px;
       
+      left:100px;
     }
     .button.vglsButton2{
-      margin-top: -7rem;
-     
+      
+     position: absolute;
+     top:300px;
+     left:250px;
       
     }
     .banner{
       display: none;
     }
+    .frontText2{
+      display: none;
+    }
+    .footerLeftHeading{
+      font-size: 5rem;
+    }
+    .footerExtremeRight{
+      display: none;
+    }
+    .joinTagText.textA{
+      font-size: 1rem;
+
+    }
+    .joinTagText.textB{
+      font-size: 5rem;
+
+    }
+    .box{
+      width: 50rem;
+    }
+    .footerContainer{
+      width: 35rem;
+    }
+
+    .vglButton{
+      position:absolute;
+      top:35px;
+    }
   }
+
   

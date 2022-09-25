@@ -44,3 +44,40 @@
     width: 50%;
     align-self: center;
 }
+@media (max-width: 500px)
+{
+    .teamContainer{
+        flex-direction: column;
+        flex-flow: inherit;
+        margin-top: 10rem;
+    }
+    .ourTeamImg{
+        width: 10rem;
+        height:10rem;
+       /* margin-top: 35rem;*/
+        margin-left:3rem;
+        margin-right:10px;
+    }
+    .rightPanCont{
+      /*  margin-top: 35rem;*/
+        margin-left: 20px;
+        
+    }
+
+    .rightPanName{
+        font-size:3vh;
+       
+    }
+    .rightPanRole{
+        font-size:5vh;
+    }
+
+    .rightPanBody{
+        text-align: justify;
+        width:100%;
+        font-size:-2rem;
+    }
+    .rightPan{
+        margin-right:200px;
+    }
+}
