@@ -23,7 +23,7 @@ export default function AboutText(props) {
         </div>
       </motion.div>
       <motion.div className="rightAbout">
-        <img src='Assets/aboutImage.png'/>
+        <img src="Assets/aboutImage.png"/>
       </motion.div>
     </div>
     </div>

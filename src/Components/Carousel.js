@@ -28,7 +28,7 @@ export default function Carousel(props) {
           {props.heading.toUpperCase()}
         </h2>
         <h4 className='viewHeading'>
-          VIEW ALL {props.heading.toUpperCase()}
+          {props.heading.toUpperCase()}
         </h4>
       </div>
       <div className="container">

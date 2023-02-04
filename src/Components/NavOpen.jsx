@@ -70,7 +70,7 @@ export default function Navbar(props) {
           className="vgl"
         >
           <button onClick={buttonHandler} className="button vglButton">
-            <strong>RECON</strong>
+            <strong>VGL</strong>
           </button>
         </motion.div>
       </motion.nav>

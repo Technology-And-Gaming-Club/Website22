@@ -27,13 +27,15 @@ import Menu from './Components/Menu';
 import imagesRegistrations from './imagesRegistrations';
 import RegistrationCarousel from './Components/RegistrationCarousel'
 import ReconButton from './Components/ReconButton';
+import OurTeamLeft from './OurTeamLeft';
+import OurTeamRight from './OurTeamRight';
 
 
 export default function AppEventsVGL() {
   let events = [
     {
-      heading : "Valorant",
-      images : imagesRegistrations,
+      heading : "VALORANT",
+      // images : imagesRegistrations,
       
 
       registration_link : "/valoRegistration",
@@ -41,31 +43,24 @@ export default function AppEventsVGL() {
       bracket_link : "/hello",
 
     }, 
-    {
-      heading : "CSGO",
-      images : imagesRegistrations,
-      registration_link : "/csgoRegistration",
-      bracket_link : "",
 
-
-    },
     {
       heading : "CODM",
-      images : imagesRegistrations,
+      // images : imagesRegistrations,
       registration_link : "/CodmRegistration",
       bracket_link : "",
 
     },
     {
-      heading : "fifa",
-      images : imagesRegistrations,
+      heading : "FIFA",
+      // images : imagesRegistrations,
       registration_link : "/fifaRegistration",
       bracket_link : "",
 
     },
     {
-      heading : "Studio To Stage",
-      images : imagesRegistrations,
+      heading : "ARCADE",
+      // images : imagesRegistrations,
       registration_link : "/STSRegistration",
       bracket_link : "",
 
@@ -77,45 +72,34 @@ export default function AppEventsVGL() {
   return (
     <motion.div animate={{y:[-1000,0]}} className="eventVGL">
     <Navbar setMenu ={setMenu}/>
-      <FrontPage text1="Gravitas Event" heading="RECON" text2="INITIATE | ELEVATE"/>
-      <ReconButton/>
-      <AboutText heading="ABOUT THE EVENT" text="The name of the event is RECON: INITIATE/ELEVATE. THE MAIN IDEA OF INITIATE and ELEVATE IS TO START OFF THE EVENT AND ELEVATE IT TO TAKE IT TO THE NEXT LEVEL. THE EVENT WILL BE FOR ALL-INDIA COLLEGE STUDENTS. IT WILL BE CONDUCTED OFFLINE IN VIT ON 30TH SEP-2ND OCT
-2022 IN VIT VELLORE CAMPUS.
-WE PLAN TO CONDUCT THE EVENT IN TWO PHASES, PHASE 1 BEING A GAME.
-DEVELOPMENT HACKATHON AND PHASE 2 BEING AN ALL INDIA ESPORTS.
-TOURNAMENT. THE DETAILS ARE AS FOLLOWS:-
+      <FrontPage text1="RIVIERA EVENT" heading="VGL" text2="VICTORY AWAITS | ARE YOU READY?"/>
+      {/* <ReconButton/> */}
+      <AboutText heading="ABOUT THE EVENT" text="THIS YEAR, TAG HOSTS THE 11TH ITERATION OF VIT GAMER'S LEAGUE, AN EVENT HOSTED EVERY YEAR AT THE CULTURAL FEST RIVIERA. VGL HAS OUTGROWN IT'S REPUTATION IN BEING ONE OF THE BIGGEST E-SPORTS TOURNAMENTS AT THE COLLEGE LEVEL AND ATTRACTS PARTICIPANTS FROM ALL OVER INDIA TO PARTICIPATE IN THE EVENT.
 
-1. STUDIO-TO-STAGE (GAME DEV HACKATHON OR GAMEUAM) - IT IS A
-48HRS CONTINUOUS GAME DEVELOPMENT . HACKATHON WHERE
-PARTICIPANTS WILL BE GIVEN A BASIC THEME (ON THE SPOT) WITH CERTAIN
-CONDITIONS AND THEY HAVE TO DEVELOP PC 2D/3D GAMES BASED ON THE
-THEME ON ANY GAME DEVELOPMENT ENGINE THEY MAY WISH TO. THE GAMES:
-WILL BE PUBLISHED ON TAG CLUB'S, STUDIO TO STAGE, ITCH.IO PAGE. THE
-SUBMITTED GAMES WILL THEN BE JUDGED BASED ON MULTIPLE CRITERIA
-NAMELY RELEVANCE TO THE THEME, PLAYABILITY, IDEA, ETC. THE FIRST 3
-PODIUM HOLDERS WILL BE REWARDED.
-
-2. GAME-A-THON (GAT) - THIS IS TAG'S ALL INDIA ESPORTS TOURNAMENT.
-CONDUCTED EVERY YEAR. THIS YEAR WE WILL BE CONDUCTING GAMES LIKE:
-CSGO, VALORANT, FIFA 22 AND ROCKET LEAGUE. THE REGISTRATIONS.
-WILL BE TAKEN IN USING TAG'S OFFICIAL WEBSITE. (CURRENTLY NO ENTRY
-FEES). PLAYERS CAN PARTICIPATE EITHER WITH THEIR TEAMS OR SOLO.
-FOR SOLO PARTICIPANTS, WE WILL BE ALLOTTING. TEAMS BASED ON THEIR RANKS. THE MATCHMAKING WILL BE DONE ACCORDINGLY. THE WINNERS ANI
-RUNNER UPS OF EACH GAME WILL BE REWARDED.
-"/>
+      THE EVENT BRINGS OUT THE BEST IN-HOUSE GAMERS FROM ALL OVER THE COLLEGE AND PROVIDES AN OPPORTUNITY TO COMPETE AND PROVIDES AN OPPORTUNITY TO COMPETE ON A LARGE SCALE PLATFORM."
+      image="Assets/aboutImage.png"/>
 
       
       {/* <RegistrationCarousel heading="VALORANT" images={imagesRegistrations}/> */}
-      {
+      {/* {
         events.map((element,idx)=>{
-          return  <RegistrationCarousel heading={element.heading} images={imagesRegistrations } registration_link={element.registration_link} bracket_link={element.bracket_link}/>
+          return  <RegistrationCarousel heading={element.heading} images={imagesRegistrations} registration_link={element.registration_link} bracket_link={element.bracket_link}/>
           
-        })      }
+        })      
+      } */}
       {/* <Parallax/> */}
       {/* <RegistrationCarousel heading="CSGO" images={imagesRegistrations}/>
       <RegistrationCarousel heading="rocket" images={imagesRegistrations}/>
       <RegistrationCarousel heading="fifa" images={imagesRegistrations}/> */}
-      <Footer/>  
-    </motion.div>
+
+
+<OurTeamLeft name="VGL: VALORANT" role="" body="Valorant is a team-based first-person hero shooter. Players play as one of a set of agents, characters, designed based on several countries and cultures around the world. In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it.
+" image="Assets/valoVGL.png"/>
+<OurTeamRight name="VGL: FIFA 23" role="" body="The world's most popular sport-football, bringing people from all around the world as the game transcends LAN-guage, culture and even platform. Watch competitors go against each other in a tournament-style bracket to crown the ultimate fifa champion. " image="Assets/fifaVGL.png"/> 
+<OurTeamLeft name="VGL: CODM" role="" body="Call Of Duty Mobile is a free to play shooter game for mobile. The game is famous for its battle royale where teams dive in a world filled with arms and fight each other to survive. Everybody for themselves where survival is the only option." image="Assets/codmVGL.png"/>
+<OurTeamRight name="VGL: ARCADE" role="" body="VGL Arcade games include fighting and competitive games, like old-school Pacman, Galaga, Tetris, Pinball, and many more, where players either compete for the highest high score in one game or they control two on-screen characters while engaging in one-on-one combat to show their skill and might. This event allows players compete with each other and at the same time gives them an opportunity to dive into the worlds of Injustice and Naruto Shippuden which in turn recreates the classic atmosphere of an arc" image="Assets/Studio To Stage.png"/> 
+
+  <Footer/>  
+  </motion.div>
   )
 }

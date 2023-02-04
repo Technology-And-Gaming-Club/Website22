@@ -55,9 +55,9 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div className="footerExtremeRight">
+        {/* <div className="footerExtremeRight">
             Technology And Gaming Club 2022
-        </div>
+        </div> */}
     </div>
     <div className="bottomButton">
     <motion.a onClick={scroll} className="goToBottom"> GET IN TOUCH </motion.a>
