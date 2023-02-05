@@ -10,9 +10,9 @@ export default function FrontPage(props) {
   return (
     <div className={inView?'frontPageContainer frontPageContainer--zoom':'frontPageContainer'} ref={ref}>
         <div className="frontPage">
-            <div className="frontImageLeft">
+            {/* <div className="frontImageLeft">
 
-            </div>
+            </div> */}
             <div className="frontPageMainText">
                 <div className="frontText1">
                     {props.text1}
