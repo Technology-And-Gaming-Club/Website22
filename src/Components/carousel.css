@@ -13,9 +13,6 @@
     opacity: 0;
     transform: scale(90%);
     transition: 1.5s all ease;
-    overflow-x: hidden;
-    max-width: 100vw;
-    background-color: aqua;
 }
 
 .carouselContainer--zoom
@@ -35,7 +32,6 @@
     /* padding: 70px; */
     /* border: 4px solid pink; */
     width: 88%;
-    overflow-x: hidden;
     
 }
 
@@ -50,6 +46,7 @@
     /* left: 5%; */
     display: flex;
     justify-content: center;
+    margin-left: 10vw;
     /* border: 2px solid purple; */
     /* margin: 0% 5% 5% 0%; */
 }
@@ -95,8 +92,6 @@
     /* border: 2px solid red; */
     padding-right: 20px;
     padding-left: 20px;
-    margin-left:100px;    
-    margin-right:100px;
     height: 40vh;
     width: 40vw;
     display: flex;
@@ -148,4 +143,158 @@
     /* border: 2px solid blue; */
     /* margin: 0 10%; */
 
+}
+
+@media (max-width: 768px) {
+    .heading
+    {   
+        /* position: relative; */
+        /* margin-top: 40%; */
+        /* border: 2px solid white; */
+        width: 191px;
+        align-items: center;
+        font-size: 5.3vh;
+        margin-left: 10vw;
+        /* left: 5%; */
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid purple; */
+        /* margin: 0% 5% 5% 0%; */
+    }
+
+        .carouselContainer
+    {   
+        overflow: hidden;
+        z-index: -2;
+        /* border: 2px solid blue; */
+        /* position: absolute; */
+        /* height: 80vh;
+        width: 100vw; */
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        opacity: 0;
+        transform: scale(90%);
+        transition: 1.5s all ease;
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .carouselContainer--zoom
+    {
+        transform: scale(100%);
+        opacity: 1;
+    }
+
+    .carouselBody
+    {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: 'Oswald';
+        font-style: normal;
+        justify-content: center;
+        /* padding: 70px; */
+        /* border: 4px solid pink; */
+        width: 88%;
+        overflow-x: hidden;
+
+    }
+
+    .viewHeading
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 3vh;
+        right: 20px;
+        /* margin: 0% 5% 5% 0%; */
+        transition: 0.5s all ease;
+        /* border: 2px solid pink; */
+    }
+
+    /* .viewHeading:hover
+    {
+        color: #030302;
+        cursor: pointer;
+    } */
+
+    .container
+    {   
+        display: flex;
+        /* flex-direction: column; */
+        /* margin: 0 10%; */
+        /* border: 2px solid pink; */
+        /* border: 2px solid orange; */
+        justify-content: space-between;
+
+    }
+    .headContainer
+    {
+        display: flex;
+        justify-content: space-between;
+        /* border: 2px solid pink; */
+    }
+
+
+    .item
+    {
+        /* border: 2px solid red; */
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left:100px;    
+        margin-right:100px;
+        height: 40vh;
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s all ease;
+    }
+
+    .item img
+    {
+        width: 388px;
+        height: 215px;
+        /* border-radius: 1rem; */
+        pointer-events: none;
+        /* min-height: 215px;
+        min-width: 388px; */
+        /* border: 2px solid pink; */
+        /* border: 2px solid salmon; */
+    }
+
+    .item:hover
+    {
+        transform: scale(0,0);
+        scale: 2;
+        transition: 0.5s;
+
+        /* opacity: 0; */
+    }
+
+
+
+
+    .inner-carousel
+    {
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid salmon; */
+        /* justify-content: center; */
+
+
+    }
+
+    .carousel
+    {
+        cursor: grab;
+        overflow: hidden;
+        /* position: absolute; */
+        /* border: 2px solid blue; */
+        /* margin: 0 10%; */
+
+    }
 }
