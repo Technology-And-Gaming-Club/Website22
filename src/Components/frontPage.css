@@ -71,28 +71,32 @@
 /* Mobile Version Using Media Query */
 @media (max-width: 500px) {
     .frontPage {
+      position: absolute;
+      left: 0px;
+      top: 103px;
+      width: fit-content;
       color: white;
       display: block;
       justify-content: center;
       /* border: 2px solid salmon; */
-      width: 100%;
       height: 100%;
-      max-width: 100vw;
+      min-width: 100vw;
       overflow-x: hidden;
     }
   
     .frontText1 {
-      position: absolute;
+      /* position: absolute;
       height: 19px;
       left: -85px;
       top: 103px;
-      width: 387px;
+      width: 387px; */
       height: 19px;
       font-family: "Oswald";
       font-style: normal;
       font-weight: 200;
       font-size: 16px;
       line-height: 44px;
+      min-width: 100vw;
       /* or 275% */
   
       text-transform: uppercase;
@@ -103,17 +107,18 @@
     }
   
     .frontHeading {
-      position: absolute;
+      /* position: absolute;
       top: 140px;
       width: 461px;
       height: 125px;
-      left: -90px;
-  
+      left: -90px; */
       font-family: "Champion";
       font-style: bold;
       font-weight: 500;
       font-size: 82px;
       line-height: 90px;
+      min-width: 100vw;
+      margin-top: 10%;
       /* or 70% */
   
       letter-spacing: 0.035em;
@@ -124,11 +129,11 @@
       color: #ffffff;
     }
     .frontText2 {
-      position: absolute;
+      /* position: absolute;
       width: 272px;
       height: 21.26px;
       left: 41px;
-      top: 315px;
+      top: 315px; */
       opacity: 0.8;
       font-family: "Space Grotesk";
       font-style: normal;
@@ -144,11 +149,12 @@
     .frontText1,
     .frontHeading,
     .frontText2 {
-      display: inline;
-      padding: 80px;
-      padding-top: 40px;
+      display: flex;
+      /* padding: 80px;
+      padding-top: 40px; */
       justify-content: space-around;
       text-align: center;
+      width: 100%;
     }
   
     .mainNav {
