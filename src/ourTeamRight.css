@@ -68,14 +68,11 @@
 
     .rightPanName{
         font-size:3vh;
-        margin-right: 0px;
-        text-align: right;
+       
     }
     .rightPanRole{
         font-size:4vh;
         max-width: 30vw;
-        margin-left: 10vw;
-        text-align: right;
     }
 
     .rightPanBody{
@@ -83,39 +80,8 @@
         width:100%;
         max-width: 50vw;
         font-size:-2rem;
-        margin-left: 2rem;
     }
     .rightPan{
-        margin-right:2rem;
-        margin-left: 10px;
+        margin-right:1rem;
     }
-
-    
-    .leftPanCont{
-        /*  margin-top: 35rem;*/
-          margin-left: 10px;
-          
-      }
-  
-      .leftPanName{
-          font-size:3vh;
-         
-      }
-      .leftPanRole{
-          font-size:4vh;
-          max-width: vw;
-          margin-right: 1rem;
-      }
-  
-      .leftPanBody{
-          text-align: justify;
-          width:100%;
-          max-width: 30vw;
-          font-size:-2rem;
-          margin-left: 0rem;
-      }
-      .leftPan{
-          margin-left:0px;
-          
-      }
 }

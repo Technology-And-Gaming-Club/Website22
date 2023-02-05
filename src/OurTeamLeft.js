@@ -8,15 +8,15 @@ export default function OurTeamLeft(props) {
         <div className="leftPan">
             <img src={props.image} className='ourTeamImg'/>
         </div>
-        <div className="rightPan">
-            <div className="rightPanCont">
-                <div className="rightPanName">
+        <div className="leftPan">
+            <div className="leftPanCont">
+                <div className="leftPanName">
                     {props.name}
                 </div>
-                <div className="rightPanRole">
+                <div className="leftPanRole">
                     {props.role}
                 </div>
-                <div className="rightPanBody">
+                <div className="leftPanBody">
                     {props.body}
                 </div>
             </div>
