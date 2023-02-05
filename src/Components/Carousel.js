@@ -27,9 +27,9 @@ export default function Carousel(props) {
         <h2 className='heading'>
           {props.heading.toUpperCase()}
         </h2>
-        <h4 className='viewHeading'>
+        {/* <h4 className='viewHeading'>
           {props.heading.toUpperCase()}
-        </h4>
+        </h4> */}
       </div>
       <div className="container">
         <motion.div ref={carousel} className="carousel">
