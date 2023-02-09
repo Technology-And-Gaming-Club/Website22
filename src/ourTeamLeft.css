@@ -45,6 +45,34 @@
     align-self: center;
 }
 
+.leftPanCont{
+    /*  margin-top: 35rem;*/
+      margin-left: 10px;
+      
+  }
+
+  .leftPanName{
+      font-size:10vh;
+     
+  }
+  .leftPanRole{
+      font-size:5vh;
+      max-width: vw;
+      margin-right: 1rem;
+  }
+
+  .leftPanBody{
+      text-align: justify;
+      width:100%;
+      max-width: 30vw;
+      font-size:-2rem;
+      margin-left: 0rem;
+  }
+  .leftPan{
+      margin-left:0px;
+      
+  }
+
 @media (max-width: 500px)
 {
     .teamContainer{
