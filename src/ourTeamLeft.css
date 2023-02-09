@@ -107,7 +107,7 @@
     }
 
     .rightPanBody{
-        text-align: justify;
+        text-align: right;
         width:100%;
         max-width: 50vw;
         font-size:-2rem;
@@ -136,9 +136,9 @@
       }
   
       .leftPanBody{
-          text-align: justify;
+          text-align: left;
           width:100%;
-          max-width: 30vw;
+          max-width: 50vw;
           font-size:-2rem;
           margin-left: 0rem;
       }
