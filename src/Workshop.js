@@ -4,6 +4,7 @@ import {useRef, useEffect, useState} from "react";
 import Navbar from './Components/Navbar';
 import Menu from './Components/Menu';
 import ReactDOM from "react-dom/client";
+import AnimatedCursor from 'react-animated-cursor';
 
 import {
   BrowserRouter,
@@ -35,6 +36,14 @@ export default function OurTeam() {
   },[]);
   return (
     <>
+    <AnimatedCursor className="cursor" color="255,255,255"
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={1.7}
+  outerAlpha={0}
+  outerStyle={{
+    border: '3px solid #fff'}}/>
       <Navbar setMenu={setMenu}/>
       <OurTeamLeft name="GAME WITH THE WEB Pt2" role="by Santushti" body="TAG club is back with the part-II session of Game with the web, with insights of backend development with MongoDB, Express, etc.." image="Assets/GameWithWebPt2.png"/>
       <OurTeamRight name="GAME WITH THE WEB Pt1" role="by Shaan" body="TAG Club brings you game with the web where we hold a series of workshops to help you learn the basics of web development." image="Assets/GameWithWebPt1png.png"/> 

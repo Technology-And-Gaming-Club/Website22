@@ -4,6 +4,7 @@ import {useRef, useEffect, useState} from "react";
 import Navbar from './Components/Navbar';
 import Menu from './Components/Menu';
 import ReactDOM from "react-dom/client";
+import AnimatedCursor from 'react-animated-cursor';
 
 import {
   BrowserRouter,
@@ -35,6 +36,14 @@ export default function OurTeam() {
   },[]);
   return (
     <>
+      <AnimatedCursor className="cursor" color="255,255,255"
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={1.7}
+  outerAlpha={0}
+  outerStyle={{
+    border: '3px solid #fff'}}/>
       <Navbar setMenu={setMenu}/>
       <OurTeamLeft name="AYUSH SAHA" role="CHAIRPERSON" body="Consistently hardworking, a true leader amongst men, Ayush has always shown his desire and determination towards the club." image="Assets/Ayush Saha.png"/>
       <OurTeamRight name="AYUSH AGGARWAL" role="VICE-CHAIRPERSON" body="Diligent in his works, hardworking and funny, Ayush has never missed a chance to impress us with his work and his other worldly skills." image="Assets/Ayush Aggarwal.png"/> 

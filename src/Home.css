@@ -1,3 +1,13 @@
-.mainBg{
+/* .mainBg{
     min-width: 100vw;
+} */
+
+
+*
+{
+    cursor: none;
 }
+/* .cursor
+{
+    z-index: 1000000;
+} */

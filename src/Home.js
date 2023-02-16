@@ -4,6 +4,8 @@ import {useRef, useEffect, useState} from "react";
 import Navbar from './Components/Navbar';
 import Menu from './Components/Menu';
 import ReactDOM from "react-dom/client";
+// import { motion } from 'framer-motion';
+import "./Home.css"
 
 import {
   BrowserRouter,
@@ -12,6 +14,7 @@ import {
   useLocation
 } from "react-router-dom";
 import Carousel from './Components/Carousel';
+import AnimatedCursor from "react-animated-cursor"
 import Parallax from './Components/Parallax';
 import AnimatedRoutes from './AnimatedRoutes';
 import BackgroundImage from './Components/BackgroundImage';
@@ -22,11 +25,55 @@ import FrontPage from './Components/FrontPage';
 import imagesEvents from './imagesEvent.js'
 import imagesProjects from './imagesProjects.js';
 import AppEventsVGL from './AppEventsVGL';
+// import Scrollbar from 'react-smooth-scrollbar';
 
 export default function Home() {
+
+  // const [mousePosition, setMousePosition] = useState({
+  //   x: 0,
+  //   y: 0
+  // });
+  // console.log(mousePosition);
+
+  // useEffect(()=>{
+
+  //   const mouseMove = e =>{
+  //     setMousePosition({ 
+  //       x: e.clientX,
+  //       y: e.clientY
+  //     })
+  //   }
+
+  //   window.addEventListener("mousemove",mouseMove);
+
+  //   return ()=>{
+  //     window.removeEventListener("mousemove", mouseMove);
+  //   }
+  // }, []);
+
+  // const variants = {
+  //   default: {
+  //     x: mousePosition.x ,
+  //     y: mousePosition.y 
+  //   }
+  // }
+
   const [menu,setMenu] = useState(0);
   return (
+
+
+ 
     <motion.div animate={{y:[-1000,0]}}>
+      <AnimatedCursor className="cursor" color="255,255,255"
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={1.7}
+  outerAlpha={0}
+  outerStyle={{
+    border: '3px solid #fff'}}/>
+      {/* <Scrollbar> */}
+      {/* <motion.div className="cursor" variants={variants} animate="default"></motion.div> */}
       <Navbar setMenu={setMenu}/>
       <FrontPage text1="VELLORE INSTITUTE OF TECHNOLOGY" heading="TECHNOLOGY AND GAMING CLUB" text2="We are the premium gaming and technology club of Vellore Institute of Technology.
       To us, technology is a goal and gaming a religion."/>
@@ -36,6 +83,8 @@ export default function Home() {
       <Carousel heading="OUR EVENTS" images={imagesProjects}/>
       <JoinTag/>
       <Footer/>  
+
+      {/* </Scrollbar> */}
     </motion.div>
   )
 }

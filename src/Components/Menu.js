@@ -5,7 +5,7 @@ import NavbarOpen from "./NavOpen.jsx";
 import { useState } from "react";
 import { Link, to } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
+import AnimatedCursor from "react-animated-cursor";
 
 export default function Menu(props) {
   const [menu, setMenu] = useState(1);
@@ -16,6 +16,14 @@ export default function Menu(props) {
       exit={{ y: [0, 1000] }}
       className="menuBody"
     >
+      <AnimatedCursor className="cursor" color="255,255,255"
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={1.7}
+  outerAlpha={0}
+  outerStyle={{
+    border: '3px solid #fff'}}/>
       <NavbarOpen setMenu={setMenu} />
 
       <motion.div className="menuContainer">

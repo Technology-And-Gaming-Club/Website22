@@ -27,6 +27,7 @@ import "aos/dist/aos.css";
 import "./ourTeam.css"
 import OurTeamLeft from './OurTeamLeft';
 import OurTeamRight from './OurTeamRight';
+import AnimatedCursor from 'react-animated-cursor';
 
 export default function OurTeam() {
   const [menu,setMenu] = useState(0);
@@ -35,6 +36,14 @@ export default function OurTeam() {
   },[]);
   return (
     <>
+    <AnimatedCursor className="cursor" color="255,255,255"
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={1.7}
+  outerAlpha={0}
+  outerStyle={{
+    border: '3px solid #fff'}}/>
       <Navbar setMenu={setMenu}/>
       <OurTeamLeft name="CLASH" role="Weekly Tournament" body="Get your mindset right and prepare yourself for tournaments coming to you every week.
 " image="Assets/Clash.png"/>

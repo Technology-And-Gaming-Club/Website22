@@ -14,7 +14,7 @@ import Footer from './Components/Footer';
 import AboutText from './Components/AboutText';
 import FrontPage from './Components/FrontPage';
 import {useRef, useEffect, useState} from "react";
-
+import AnimatedCursor from 'react-animated-cursor';
 
 import imagesEvents from './imagesEvent';
 import imagesProjects from './imagesProjects';
@@ -70,8 +70,19 @@ export default function AppEventsVGL() {
   const [menu,setMenu] = useState(0);
   <menu></menu>
   return (
+    
     <motion.div animate={{y:[-1000,0]}} className="eventVGL">
+      <AnimatedCursor className="cursor" color="255,255,255"
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={1.7}
+  outerAlpha={0}
+  outerStyle={{
+    border: '3px solid #fff'}}/>
+      
     <Navbar setMenu ={setMenu}/>
+    
       <FrontPage text1="RIVIERA EVENT" heading="VGL" text2="VICTORY AWAITS | ARE YOU READY?"/>
       {/* <ReconButton/> */}
       <AboutText heading="ABOUT THE EVENT" text="THIS YEAR, TAG HOSTS THE 11TH ITERATION OF VIT GAMER'S LEAGUE, AN EVENT HOSTED EVERY YEAR AT THE CULTURAL FEST RIVIERA. VGL HAS OUTGROWN IT'S REPUTATION IN BEING ONE OF THE BIGGEST E-SPORTS TOURNAMENTS AT THE COLLEGE LEVEL AND ATTRACTS PARTICIPANTS FROM ALL OVER INDIA TO PARTICIPATE IN THE EVENT.
