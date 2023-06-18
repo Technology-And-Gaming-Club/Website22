@@ -1,0 +1,191 @@
+.reviewHeading
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    /* border: 2px solid red; */
+    /* height: 25vh; */
+    /* width: 100%; */
+    color: aliceblue;
+    margin-top: 12%;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.reviewHeadingContent
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    /* margin: 10% */
+}
+
+.reviewHeadingLeftTitle
+{
+    color: orange;
+    font-family: "oswald";
+    font-size: 400%;
+    /* padding-left: 2.5%; */
+    opacity: 0.8;
+    /* border: 2px solid red; */
+}
+
+.reviewHeadingLeftContent
+{
+    color: aliceblue;
+    font-family: "Space Grotesk";
+    font-size: 200%;
+    /* padding-left: 2.5%; */
+    margin-top: 10%;
+    /* border: 2px solid red; */
+}
+
+.reviewHeadingLeft
+{
+    display: flex;
+    flex-direction: column;
+}
+.reviewHeadingRight
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+}
+
+.imageStack
+{
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    /* border: 2px solid rebeccapurple; */
+}
+.stackImage
+{
+    /* border: 2px solid burlywood; */
+    width: 200px;
+    height: 200px;
+    
+}
+
+.image1
+{
+    background-color: aqua;
+    grid-area: 1/2;
+    z-index: 200;
+    transform: rotate(20deg);
+}
+
+.image2
+{
+    background-color: blue;
+    grid-area: 4/1;
+    z-index: 201;
+    transform: rotate(60deg);
+}
+.image3
+{
+    background-color: orange;
+    grid-area: 5/5;    
+    transform: rotate(80deg);
+}
+
+.image4
+{
+    background-color: blueviolet;
+    grid-area: 2/6;
+    transform: rotate(120deg);
+}
+
+.reviewButtonContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* margin-left: 2%; */
+}
+
+.reviewButton
+{
+    align-self: center;
+    width: 50%;
+    margin-top: 10%;
+    color: orange;
+    border: 2px solid orange;
+    background-color: transparent;
+    width: 400%;
+    height: 48px;
+    align-items: center;
+    transition: 0.5s all ease;
+}
+
+.reviewButton:hover
+{
+    background-color: rgb(239, 167, 0);
+    color: black;
+    cursor: pointer;
+}
+
+.stack 
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.elementContainer
+{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid orange;
+    /* border-radius: %; */
+    margin: 2%;
+    width: 90%;
+    color: orange;
+    opacity: 0;
+    transform: scale(90%);
+    transition: 1.5s all ease;
+}
+
+.elementContainer--zoom
+{
+    transform: scale(100%);
+    opacity: 1;
+}
+
+.stackImage
+{
+    z-index: 1000000;
+    border: 2px solid pink;
+    width: 200px;
+    height: 200px;
+    margin:1%;
+}
+
+.stackMidContent
+{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid purple; */
+    /* padding-left: 5%; */
+    width: 50%;
+}
+
+.stackMidContentHeading
+{
+    color: orange;
+    font-family: "oswald";
+    margin-bottom: 2%;
+    font-size: 200%;
+}
+
+.stackMidContentDesc
+{
+    font-family: "Space Grotesk";
+    font-size: 100%;
+    margin-top: 2%;
+}

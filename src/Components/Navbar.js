@@ -18,7 +18,7 @@ export default function Navbar(props) {
   }, [clicked]);
 
   const buttonHandler = () => {
-    navigate("/EventVGL");
+    navigate("/Reviews");
   };
 
   return (
@@ -86,7 +86,7 @@ export default function Navbar(props) {
           className="vgl"
         >
           <button onClick={buttonHandler} className="button vglButton">
-            <strong>VGL</strong>
+            <strong>REVIEWS</strong>
           </button>
         </motion.div>
       </motion.nav>
