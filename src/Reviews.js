@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Components/Navbar'
+import NavbarReviews from './Components/NavbarReviews'
 import AnimatedCursor from 'react-animated-cursor';
 import { useState } from 'react';
 import ReviewLandingPage from './ReviewLandingPage';
@@ -23,7 +23,7 @@ export default function Reviews() {
                                           outerScale={1.7}
                                           outerAlpha={0}
                                           outerStyle={{border: '3px solid #fff'}}/>
-        <Navbar setMenu={setMenu}/>
+        <NavbarReviews setMenu={setMenu}/>
         <ReviewLandingPage title = {"Welcome to\nTAG's Blogsite"} content = {"I shoved 15 alligators up my ass on 17/03/2015 and 103 other things unknown about me"}/>
         <Carousel heading="REVIEWS" images={imagesReviews}/>
         <ReviewStack/>

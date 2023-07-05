@@ -31,6 +31,7 @@ import Registration from "./Registration";
 import STSReg from "./STSReg"
 import Workshop from "./Workshop";
 import Events from "./Events";
+import Login from "./Login"
 
 function App() {
   const location = useLocation();
@@ -54,6 +55,7 @@ function App() {
       <Route path="/Rulebook" element={<Rulebook/>} />
       <Route path="/" element={<Home />} />
       <Route path="/Reviews" element={<Reviews />} />
+      <Route path="/Login" element={<Login />} />
       <Route path="/Blog" element={<Blog />} />
     </Routes>
     // </BrowserRouter>
