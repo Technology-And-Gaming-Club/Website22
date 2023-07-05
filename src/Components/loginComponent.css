@@ -1,0 +1,84 @@
+.loginBackground {
+    border-radius: 0.5em;
+    font: "Oswald";
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: rgba(50, 50, 50, 0.3);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 5em;
+}
+
+.loginForm {
+    width: 100%;
+}
+
+::placeholder {
+    color: #f3b344;
+    font-weight: bold;
+    opacity: 1;
+}
+
+::-webkit-input-placeholder {
+    color: #f3b344;
+    font-weight: bold;
+    opacity: 1;
+}
+
+input[type="text"] {
+    border-radius: 0.5em;
+    color: #f3b344;
+    border: none;
+    padding:0.7em;
+    font-size: large;
+    border: #f3b344 2px solid;
+    background-color: transparent;
+    width: 100%;
+}
+
+input[type="password"] {
+    border-radius: 0.5em;
+    color: #f3b344;
+    border: none;
+    padding:0.7em;
+    font-size: large;
+    border: #f3b344 2px solid;
+    background-color: transparent;
+    width: 100%;
+}
+
+.loginHeading {
+    margin-top: 1em;
+    color: #f3b344;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.loginInput {
+    margin: 1.5em 1em;
+    display: flex;
+}
+
+.loginButton {
+    transition: 0.3s;
+    display: flex;
+    font-weight: bold;
+    min-width: 200px;
+    justify-content: center;
+    align-content: center;
+    border:#f3b344 2px solid;
+    color: #f3b344;
+    background-color: transparent;
+    font-size: large;
+    margin: 1.5em auto;
+    padding: 0.5em
+}
+
+.loginButton:hover {
+    background-color: #f3b344;
+    color:black;
+}
