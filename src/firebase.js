@@ -4,13 +4,13 @@ import {getFirestore} from "firebase/firestore";
 import {getStorage} from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: import.meta.env.varname,
-    authDomain: import.meta.env.varname,
-    projectId: import.meta.env.varname,
-    storageBucket:import.meta.env.varname ,
-    messagingSenderId: import.meta.env.varname,
-    appId:import.meta.env.varname ,
-    measurementId: import.meta.env.varname
+    apiKey: process.env.REACT_APP_APIKEY,
+    authDomain: process.env.REACT_APP_AUTH,
+    projectId: process.env.REACT_APP_PROJECTID,
+    storageBucket:process.env.REACT_APP_STORAGEBUCKET ,
+    messagingSenderId: process.env.REACT_APP_MESSEAGINGSENDERID,
+    appId:process.env.REACT_APP_APPID ,
+    measurementId: process.env.REACT_APP_MEASUREMENTID
 
 
 };
