@@ -11,7 +11,8 @@ import ValoRegistration from "./ValReg";
 import FifaRegistration from "./FIFAReg";
 import CodmRegistration from "./CODMReg";
 import OurTeam from "./OurTeam";
-import Reviews from "./Reviews"
+import Reviews from "./Reviews";
+import Blog from "./Blog";
 
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Carousel from "./Components/Carousel";
@@ -55,6 +56,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/Reviews" element={<Reviews />} />
       <Route path="/Login" element={<Login />} />
+      <Route path="/Blog" element={<Blog />} />
     </Routes>
     // </BrowserRouter>
   );
