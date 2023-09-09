@@ -1,0 +1,57 @@
+textarea{
+    width: 100%;
+    color: aliceblue;
+    background: none;
+    resize: none;
+    border: #f3b344 2px solid;
+    border-radius: 15px;
+    padding: 0.75rem;
+    font-size: 1.75rem;
+    text-align: justify;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+
+textarea::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+
+textarea[name="title"]{
+    color: orange;
+    font-family: "oswald";
+    font-size: 100%;
+    font-weight: 500;
+}
+
+textarea[name="title"]::placeholder{
+    color: orange;
+    opacity: 1;
+}
+
+.img-input{
+    color: aliceblue;
+    font-size: 1.5rem;
+    /* border: 1px red solid;  */
+    margin: 20px 50px;
+}
+
+input[name="submit"]{
+    transition: 0.3s;
+    display: flex;
+    font-weight: bold;
+    min-width: 200px;
+    justify-content: center;
+    align-content: center;
+    border:#f3b344 2px solid;
+    color: #f3b344;
+    background-color: transparent;
+    font-size: large;
+    margin: 4em auto;
+    padding: 0.5em
+}
+
+input[name="submit"]:hover{
+    background-color: #f3b344;
+    color:black;
+}
