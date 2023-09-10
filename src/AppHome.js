@@ -13,6 +13,7 @@ import CodmRegistration from "./CODMReg";
 import OurTeam from "./OurTeam";
 import Reviews from "./Reviews";
 import Blog from "./Blog";
+import BlogCompose from "./BlogCompose";
 
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Carousel from "./Components/Carousel";
@@ -57,6 +58,7 @@ function App() {
       <Route path="/Reviews" element={<Reviews />} />
       <Route path="/Login" element={<Login />} />
       <Route path="/Blog" element={<Blog />} />
+      <Route path="/Compose" element={<BlogCompose />} />
     </Routes>
     // </BrowserRouter>
   );

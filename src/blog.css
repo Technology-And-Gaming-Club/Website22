@@ -8,10 +8,12 @@
 
 .left-container{
     width: 50%;
+    /* border: 1px red solid; */
 }
 
 .right-container{
     width: 50%;
+    /* border: 1px red solid; */
 }
 
 .blog-heading{
@@ -27,10 +29,6 @@
     font-size: 175%;
     margin-top: 5%;
     text-align: justify;
-}
-
-.para1{
-
 }
 
 .blog-img{
