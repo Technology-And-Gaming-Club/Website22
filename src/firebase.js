@@ -23,3 +23,5 @@ export const db = getFirestore(app);
 export const storage = getStorage(app)
 
 export default app
+
+//INFO: Check src/utils.js for the wrapper function

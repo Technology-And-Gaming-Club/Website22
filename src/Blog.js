@@ -1,14 +1,31 @@
-import { React, useState } from "react";
+import { React, useEffect, useState } from "react";
 import Navbar from "./Components/Navbar";
 import BlogHero from "./BlogHero";
+import { getAllReviews } from "./utils.js";
 import AnimatedCursor from "react-animated-cursor";
 import { motion } from 'framer-motion';
+import { useParams } from "react-router-dom";
 
 export default function Blog(){
 
     const [menu, setMenu] = useState(0);
-    var randomText1 = "Pretium fusce id velit ut tortor pretium viverra. Purus semper eget duis at tellus at urna. Cras ornare arcu dui vivamus arcu felis bibendum. Ultrices sagittis orci a scelerisque purus semper eget duis. Montes nascetur ridiculus mus mauris vitae. Eget felis eget nunc lobortis mattis aliquam faucibus purus in. Aliquet risus feugiat in ante metus dictum at. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Nisl vel pretium lectus quam. Nunc sed blandit libero volutpat sed cras ornareNunc sed blandit libero volutpat sed cras ornare. volutpat sed cras ornareNunc sed blandit libero volutpat asfdf."
-    var randomText2 = "Pretium fusce id velit ut tortor pretium viverra. Purus semper eget duis at tellus at urna. Cras ornare arcu dui vivamus arcu felis bibendum. Ultrices sagittis orci a scelerisque purus semper eget duis. Montes nascetur ridiculus mus mauris vitae. Eget felis eget nunc lobortis mattis aliquam faucibus purus in. Aliquet risus feugiat in ante metus dictum at. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Nisl vel pretium lectus quam. Nunc sed blandit libero volutpat sed cras ornareNunc sed blandit libero volutpat sed cras ornare. volutpat sed cras ornareNunc sed blandit libero volutpat asfdf. tpat sed cras ornareNunc sed blandit libero volutpat sed cras ornare. volutpat sed cras ornareNunc sed blandit libero volutpat asfdf.tpat sed cras ornareNunc sed blandit libero volutpat sed cras ornare. volutpat sed cras ornareNunc sed blandit libero volutpat asfdf.tpat sed cras ornareNunc sed blandit libero volutpat sed cras ornare. volutpat sed cras ornareNunc sed blandit libero volutpat asfdf."
+    const [data, setData] = useState(null);
+
+    const blogID = useParams().id;
+
+    useEffect(() => {
+    const fetch = async () => {
+      getAllReviews().then((data) => {
+      data.forEach((blog, index, array) => {
+        console.log(blog.id, blogID, blog.id === blogID);
+        if(blog.id === blogID) {
+          setData(blog);
+          console.log("should set")
+        }
+      })
+    })};
+    fetch();
+    }, [])
 
     return(
         <motion.div animate={{y:[-1000,0]}}>
@@ -20,10 +37,10 @@ export default function Blog(){
                                                 outerAlpha={0}
                                                 outerStyle={{border: '3px solid #fff'}}/>
                 <Navbar setMenu={setMenu}/>
-                <BlogHero title='Title Text Title Text Title Text Title Text Title Text Title Text' 
-                          para1={randomText1}
-                          para2={randomText2}
-                          para3={randomText2} />
+                {data?<BlogHero title={data.heading} 
+                          para1={data.section1}
+                          para2={data.section2}
+                          para3={data.section3} />:"Now Loading..."}
         </motion.div>
 
     )

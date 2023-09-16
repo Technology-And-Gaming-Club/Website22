@@ -57,7 +57,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/Reviews" element={<Reviews />} />
       <Route path="/Login" element={<Login />} />
-      <Route path="/Blog" element={<Blog />} />
+      <Route path="/Blog/:id" element={<Blog />} />
       <Route path="/Compose" element={<BlogCompose />} />
     </Routes>
     // </BrowserRouter>

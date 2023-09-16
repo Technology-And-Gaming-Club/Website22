@@ -83,7 +83,7 @@ async function getUserSpecificReviews(){
 
 }
 
-async function getAllReviews(){
+export async function getAllReviews(){
 
     const allReviews = []
 
